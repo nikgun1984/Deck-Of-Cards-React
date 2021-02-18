@@ -42,7 +42,7 @@ const DeckCards = () => {
     if (isStartDrawing && remaining) {
       timer.current = setInterval(() => {
         drawCard();
-      }, 100);
+      }, 1000);
     }
     if (!remaining) {
       setTitle("Drawing Completed!!!");
