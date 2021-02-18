@@ -1,0 +1,12 @@
+.DeckCards {
+    position : relative;
+    background : white;
+    width : 15vw;
+    margin : 5vw 42vw;
+    height : 300px;
+    border : 5px dotted black;
+}
+
+.DeckCards-button{
+	text-align: center;
+}
